@@ -1,0 +1,112 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+.nav{
+    position: fixed;
+    width: 100%;
+    height: 70px;
+    flex-direction: row;
+    display: flex;
+    align-items: center;
+}.nav img{
+    width: 105px;
+    height: 25px;
+    margin: 25px;
+}.nav li {
+    list-style: none;
+    font-size: large;
+    font-family:sans-serif;
+    margin: 20px 16px;
+    
+    
+    
+
+}.nav-items a{
+    text-decoration: none;
+    color: white;
+   
+}.nav a:hover{
+    text-decoration: underline;
+}li:nth-child(1) {
+    margin-left: 89px;
+    
+}.nav-items{
+    flex-direction: row;
+    display: flex;
+}.nav-item-left{
+    width: 38%;
+    display: flex;
+    flex-direction: row;
+    align-items:center;
+    justify-content: flex-end;
+    
+}.nav-item-left a{
+    text-decoration: none;
+    color: white;
+    font-family: sans-serif;
+    font-size: large;
+}.nav-item-left li:nth-child(3){
+    background: none;
+    font-family: sans-serif;
+    font-size: large;
+    color: white;
+    border: white 1px solid;
+   
+
+} /* Style the button used to pause/play the video */
+  .background{
+    position: relative;
+    width: 100wh;
+    height: 100vh;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    z-index: -10;
+  }.background h1{
+    width: 100%;
+    top: 0;
+    z-index: 20;
+    margin: 10%;
+    position: absolute;
+    left: 100px;
+    top: 300px;
+    font-family: sans-serif;
+    font-weight: bolder;
+    font-size: xxx-large;
+    color: white;
+    cursor: pointer;
+  }.container{
+    width: 80%;
+    height: 100%;
+    position: relative;
+    display: flex;
+  }#mybtn{
+    position: absolute;
+    top: 86%;
+    left: 82%;
+    font-size: large;
+    font-family: sans-serif;
+    font-weight: bolder;
+    cursor: pointer;
+    background-color:black;
+    color: white;
+    z-index: 1;
+  }#mybtn :hover{
+    background-color: white;
+  }#myvideo{
+    width: 150%;
+    height: 150%;
+  }#learn-btn {
+    position: absolute;
+    background: none;
+    border: solid 1px white;
+    top: 90%;
+    left: 20%;
+    font-size: large;
+    
+  }#learn-btn a{
+    text-decoration: none;
+    color: white;
+  }
+  
